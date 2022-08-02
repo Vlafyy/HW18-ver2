@@ -1,0 +1,101 @@
+<head>
+    <meta charset="UTF-8">
+    <title>Резюме</title>
+    <style>
+      /*div{*/
+      /*    border:1px solid red;*/
+      /*}*/
+      .info>p {
+        margin: 0;
+        /*border: 1px solid black;*/
+        width: 250px;
+        display: inline-block;
+        padding: 10px;
+        text-indent: 20px;
+        /*letter-spacing: 2px;*/
+      }
+
+      .container {
+        border: 5px solid #6C584C;
+        width: 600px;
+        height: 600px;
+        background-color: #ADC178;
+        margin: auto;
+      }
+
+      .baseinfo {
+        height: 16%;
+      }
+
+      .info {
+        width: 600px;
+        float: left;
+      }
+
+      .photo {
+        /*border: 1px solid blue;*/
+        width: 200px;
+        height: 200px;
+        float: left;
+        padding: 10px;
+        margin: 10px 14px auto 6px;
+      }
+
+      .education {
+        height: 12%;
+      }
+
+      .experience {
+        height: 34%;
+      }
+
+      .skills {
+        height: 15%;
+      }
+
+      .line {
+        width: 760px;
+        height: 40px;
+        background-color: #DDE5B6;
+        color: #A98467;
+        letter-spacing: 2px;
+        text-indent: 10px;
+        line-height: 40px;
+        font-size: 20px;
+        margin: 10px 18px 0 18px;
+      }
+
+      .linetitle {
+        color: #F0EAD2;
+        font-size: 16px;
+        margin-left: 20px;
+      }
+
+      .linetitle span {
+        display: inline-block;
+        width: 30%;
+        text-align: center;
+      }
+
+      .linetitle span:first-child {
+        text-align: left;
+      }
+
+      .linetitle span:last-child {
+        text-align: right;
+      }
+
+      .text {
+        text-indent: 30px;
+
+      }
+
+      .text:before {
+        content: ".";
+        margin-right: 8px;
+        font-size: 20px;
+        font-weight: bolder;
+      }
+
+    </style>
+  </head>
